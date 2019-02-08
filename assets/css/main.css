@@ -57,6 +57,10 @@
 	}
 
 /* Containers */
+/*.container.\31 25\25   <-->   .container[class ~= "125%"]*/
+/*.container.\37 5\25    <-->   .container[class ~= "75%"]*/
+/*.container.\35 0\25    <-->   .container[class ~= "50%"]*/
+/*.container.\32 5\25    <-->   .container[class ~= "25%"]*/
 
 	.container {
 		margin-left: auto;
@@ -2943,10 +2947,14 @@
 
 	}
 
-    button[selected=true] {background-color: #263040}
+
+	.button[active='true'] {
+		background-color: #364050;
+	}
+
 
     
 
     
 
-    */
+
